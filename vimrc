@@ -8,21 +8,33 @@ call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
-" let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
+"Self Management
+Bundle 'gmarik/vundle'
 
-"insert other plugins here"
 
-"Gotham color scheme
-Plugin 'whatyouhide/vim-gotham'
+""""""""""""""""""""""""""""""""""
+		"BUNDLES"
+""""""""""""""""""""""""""""""""""
+"	ColorScheme
+Bundle 	'altercation/vim-colors-solarized'
+"	General Bundles
+Bundle	'scrooloose/nerdtree'
 
-"NERDTree
-Plugin 'scrooloose/nerdtree'
+"	Programming Bundles
+Bundle	'scrooloose/syntastic'
+
+"	AutoComplete + Snippets
+Bundle 	'scrooloose/snipmate-snippets'
+"Bundle 	'Valloric/YouCompleteMe'  
 
 
 call vundle#end()								"REQUIRED
 filetype plugin indent on 					"REQUIRED
 
+set background=dark
+
+"don't use on mac"
+"colorscheme solarized
 
 syntax enable									 "syntax highlighting
 set relativenumber
