@@ -29,6 +29,9 @@ Bundle	'scrooloose/syntastic'
 Bundle 	'scrooloose/snipmate-snippets'
 "Bundle 	'Valloric/YouCompleteMe'  
 
+"	Tab Completion
+Bundle	'ervandew/supertab'
+
 "	Python Plugins
 Bundle	'klen/python-mode'
 
