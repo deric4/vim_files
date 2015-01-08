@@ -4,7 +4,7 @@
 
  Clone the Repository into your ~/.vim:
  
-		$	git clone git@gitlabhq.ptsteams.local:dmiguel/vim_files.git ~/.vim
+		$	git clone https://github.com/Deric4/vim_files.git ~/.vim
 
 This setup relies on the Vundle plugin which manages your plugins. Vundle needs to be installed
 using git.
@@ -20,4 +20,4 @@ Make sure to install all the bundles that are inlcuded in your new .vimrc file b
 
 		$	vim +BundleInstall +qall
 
-	You can you run this command anytime you wnat to check plugin updates.
+You can you run this command anytime you wnat to check plugin updates.
