@@ -3,8 +3,8 @@
 *** Installation steps:
 
 	 Clone the Repository into your ~/.vim:
-		``` bash
-		$	git clone git@gitlabhq.ptsteams.local:dmiguel/vim_files.git ~/.vim
+		``` 
+			$	git clone git@gitlabhq.ptsteams.local:dmiguel/vim_files.git ~/.vim
 		```
 	This setup relies on the Vundle plugin which manages your plugins. Vundle needs to be installed
 	using git.
